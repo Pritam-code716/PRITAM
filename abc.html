@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>Responsive Table</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+    @media (min-width: 600px) {
+      th, td {
+        font-size: 18px;
+      }
+    }
+    @media (min-width: 900px) {
+      th, td {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Pritam Pramanik</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>Rushita Mondal</td>
+      <td>19</td>
+    </tr>
+    </tbody>
+  </table>
+</body>
+</html>
